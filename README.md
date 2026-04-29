@@ -1,22 +1,24 @@
-# Smart JukeBox 
+# Smart JukeBox
 
-ESP‑IDF / ESP‑ADF based **MP3 player** for **Espressif ESP32‑LyraT‑Mini V1.2** with ES8311 codec.  
-Reads MP3 files from SD card, controllable via physical buttons or built‑in web dashboard.
+ESP‑IDF / ESP‑ADF based **MP3 player** for **Espressif ESP32‑LyraT‑Mini V1.2** with ES8311 codec. Reads MP3 files from SD card, controllable via physical buttons or built‑in web dashboard.
+
+> Built as part of **<a href="https://digitalmonk.biz/electronics-embedded-software-development-services/">Embedded Software Development Services**</a> — demonstrating real-time audio, WiFi networking, and hardware control on a resource-constrained ESP32 microcontroller.
 
 ---
 
 ## Hardware
 
 - **Board** : ESP32‑LyraT‑Mini V1.2
-- **Audio codec** : ES8311 (initialised by audio_board_init)
+- **Audio codec** : ES8311 (initialised by `audio_board_init`)
+
 ---
 
 ## Software Features
 
 - **Only MP3** files are supported (decoder: `mp3_decoder`)
 - Scans `/sdcard/music/` for `.mp3` files
-- Playback control: play,stop, volume (0‑100)
-- WiFi station mode 
+- Playback control: play, stop, volume (0‑100)
+- WiFi station mode
 - Web server on port 80 – HTML dashboard with control and file upload
 - Physical button debounce and long‑press detection
 
@@ -32,7 +34,7 @@ Reads MP3 files from SD card, controllable via physical buttons or built‑in we
 
 ### Configuration
 
-WiFi credentials can be changed in `jukebox.h` .
+WiFi credentials can be changed in `jukebox.h`.
 
 Default volume = 60.
 
@@ -41,3 +43,4 @@ Default volume = 60.
 ```bash
 idf.py build
 idf.py flash monitor
+```
