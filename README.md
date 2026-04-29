@@ -1,4 +1,4 @@
-# ESP32 LyraT-Mini JukeBox – MP3 Player
+# Smart JukeBox 
 
 ESP‑IDF / ESP‑ADF based **MP3 player** for **Espressif ESP32‑LyraT‑Mini V1.2** with ES8311 codec.  
 Reads MP3 files from SD card, controllable via physical buttons or built‑in web dashboard.
