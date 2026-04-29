@@ -1,3 +1,5 @@
+
+<img width="2048" height="1536" alt="software png" src="https://github.com/user-attachments/assets/f8012f49-5040-449b-83d6-20a8f760645a" />
 # Smart JukeBox
 
 ESP‑IDF / ESP‑ADF based **MP3 player** for **Espressif ESP32‑LyraT‑Mini V1.2** with ES8311 codec. Reads MP3 files from SD card, controllable via physical buttons or built‑in web dashboard.
@@ -26,6 +28,10 @@ ESP‑IDF / ESP‑ADF based **MP3 player** for **Espressif ESP32‑LyraT‑Mini 
 - Physical button debounce and long‑press detection
 
 ---
+## video
+
+https://github.com/user-attachments/assets/9474cc81-c99b-4ad5-a427-9ba6db8b06f0
+
 
 ## Build & Flash
 
