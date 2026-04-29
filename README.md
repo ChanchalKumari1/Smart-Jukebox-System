@@ -5,7 +5,7 @@ Reads MP3 files from SD card, controllable via physical buttons or built‑in we
 
 ---
 
-## Hardware (pins used)
+## Hardware
 
 - **Board** : ESP32‑LyraT‑Mini V1.2
 - **Audio codec** : ES8311 (initialised by audio_board_init)
